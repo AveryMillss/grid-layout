@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .xs-1 {
@@ -37,7 +37,7 @@ body {
 .img-flex {
   display: block;
   width: 100%;
-  margin: none;
+  margin: 0;
   text-align: center;
 }
 
@@ -67,13 +67,13 @@ body {
 
 @media only screen and (min-width: 60em) {
 
-.span {
-  display: flex;
-}
+  .span {
+    display: flex;
+  }
 
-.img {
-  width: 66.6666%;
-}
+  .img {
+    max-width: 66.6666%;
+  }
 
 }
 
