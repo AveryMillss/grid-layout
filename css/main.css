@@ -71,14 +71,12 @@ body {
     display: flex;
   }
 
-  .img {
-    max-width: 66.6666%;
+  figcaption {
+    width: 33.333%;
   }
 
-}
-
-@media only screen and (min-width: 90em) {
-
-
+  .img {
+    width: 66.666%;
+  }
 
 }
