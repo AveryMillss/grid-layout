@@ -71,12 +71,21 @@ body {
     display: flex;
   }
 
-  figcaption {
-    width: 33.333%;
+  .img {
+    width: 66.6666%;
+    max-height: 15em;
   }
 
+  .fix {
+    width: 33.3333%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
   .img {
-    width: 66.666%;
+    max-height: 22em;
   }
 
 }
